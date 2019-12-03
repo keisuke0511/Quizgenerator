@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "main.py", line 1, in <module>
+    from questionselect.parsedoc import ParseDocument
+  File "/home_allex/toyama/keisuke/MQGSystem/questionselect/parsedoc.py", line 2, in <module>
+    import MeCab
+ImportError: No module named 'MeCab'

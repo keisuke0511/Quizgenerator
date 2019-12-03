@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="quiz_url" content={{view_url}}>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>選択肢問題</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>確認問題</h1>
+    </div>
+
+      {% for quiz in quiz_list %}
+        <div class="container quiz">
+          <div class="jumbotron">
+            <label>問題文</label>
+            <p>{{quiz["stem"]}}</p>
+            <div class="form-group">
+              <select multiple class="form-control">
+                {%for k, choice in quiz["choice"] %}
+                  <option value={{k}}>{{choice}}</option>
+                {% endfor %}`
+              </select>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+      <div class="container">
+        <button id="quiz_submit" type="button" class="btn btn-primary">提出</button>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      //URL = 'http://127.0.0.1:5000/quiz_score'
+      URL = 'http://trezia.db.ics.keio.ac.jp/quiz_score'
+      // 提出ボタンの通信設定
+      $("#quiz_submit").click(function(){
+        // 解答結果のまとめ
+        var resultBox = []; // 各問題を採点した結果
+        quiz_list = document.getElementsByClassName("quiz");
+        quiz_list = Array.prototype.slice.call(quiz_list);
+
+        // 各クイズの採点
+        quiz_list.forEach(function(quiz){
+          var stem = quiz.getElementsByTagName("p")[0].innerText; // 問題文
+          var result = quiz.getElementsByTagName("select")[0]; // 選んだ選択肢の値
+          var correct_value = ''; // 答えの文字列
+          var select_value = ''; // 選んだ選択肢の文字列
+          var distracter_0 = ''; // 不正解
+          var distracter_1 = '';
+          var distracter_2 = '';
+
+          // キーバリューの作成
+          result = result.value; // 選んだ選択肢の値
+          var options = quiz.getElementsByTagName("option");
+          options = Array.prototype.slice.call(options);
+          options.forEach(function(option){
+
+            if (option.value == result){
+              select_value = option.value;
+            }
+
+            // 各選択肢の値を用意
+            switch (option.value) {
+              case "correct_key":
+                correct_value = option.innerText;
+                break;
+              case "distracter_0":
+                distracter_0 = option.innerText;
+                break;
+              case "distracter_1":
+                distracter_1 = option.innerText;
+                break;
+              case "distracter_2":
+                distracter_2 = option.innerText;
+                break;
+
+            }
+
+            if(option.value=="correct_key"){
+                correct_value = option.innerText;
+            }
+
+            if(option.value==result){
+                select_value = option.innerText;
+            }
+          });
+          resultBox.push({
+            "stem" : stem,
+        		"result" : result,
+            "selected_key" : select_value,
+        		"correct_key" : correct_value,
+            "distracter_0" : distracter_0,
+            "distracter_1" : distracter_1,
+            "distracter_2" : distracter_2
+            });
+        });
+
+        console.log(resultBox);
+
+        $.ajax({
+          url: URL,
+          type: 'get'
+        })
+        // ajax通信成功時
+        .done(function(response){
+          console.log("ajax success!");
+        })
+        .fail(function(){
+          console.log("ajax failed");
+        })
+      })
+    </script>
+  </body>
+</html>
