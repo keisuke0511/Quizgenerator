@@ -35,14 +35,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      //URL = 'http://127.0.0.1:5000/quiz_score'
-      URL = 'http://trezia.db.ics.keio.ac.jp/quiz_score'
+      URL = 'http://127.0.0.1:5000/quiz_score'
+      // URL = 'http://trezia.db.ics.keio.ac.jp/quiz_score'
       // 提出ボタンの通信設定
       $("#quiz_submit").click(function(){
         // 解答結果のまとめ
         var resultBox = []; // 各問題を採点した結果
         quiz_list = document.getElementsByClassName("quiz");
         quiz_list = Array.prototype.slice.call(quiz_list);
+        quiz_url = document.getElementsByName('quiz_url')[0].getAttribute("content"),
 
         // 各クイズの採点
         quiz_list.forEach(function(quiz){
@@ -90,6 +91,7 @@
             }
           });
           resultBox.push({
+            "url" : quiz_url,
             "stem" : stem,
         		"result" : result,
             "selected_key" : select_value,
@@ -104,7 +106,7 @@
 
         $.ajax({
           url: URL,
-          type: 'get'
+          type: 'POST'
         })
         // ajax通信成功時
         .done(function(response){

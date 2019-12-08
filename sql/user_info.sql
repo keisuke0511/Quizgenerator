@@ -12,10 +12,6 @@ create table question(
   id serial,
   url varchar(256) not null unique,
   stem varchar(256),
-  correct_key varchar(128),
-  distracter_0 varchar(128),
-  distracter_1 varchar(128),
-  distracter_2 varchar(128),
   primary key(id)
 );
 
@@ -23,7 +19,10 @@ create table user_question(
   name varchar(128),
   passwd varchar(128),
   q_id serial,
-  result int,
+  correct_key varchar(128),
+  distracter_0 varchar(128),
+  distracter_1 varchar(128),
+  distracter_2 varchar(128),
   selected_choice varchar(128),
   primary key(name, passwd, q_id),
   foreign key(name, passwd) references user_info(name, passwd),
