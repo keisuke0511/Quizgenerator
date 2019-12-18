@@ -5,6 +5,29 @@
     <meta name="quiz_url" content={{view_url}}>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>選択肢問題</title>
+
+    <style>
+      #quiz_score {
+        display: none;
+        position: fixed;
+        top: 30%;
+        left: 30%;
+        width: 500px;
+        text-align: center;
+        z-index: 5;
+        background-color: #FFDEA5;
+        border-radius: 20px;
+      }
+
+      #quiz_score h3{
+        padding: 50px;
+      }
+
+      .quiz {
+        z-index: 1;
+      }
+    </style>
+
   </head>
   <body>
     <div class="container">
@@ -28,22 +51,57 @@
       {% endfor %}
 
       <div class="container">
+        <div class="form-group">
+          <label>ユーザー名</label>
+          <input type="text" class="form-control" id="quiz_user">
+        </div>
+        <div class="form-group">
+          <label>パスワード</label>
+          <input type="password" class="form-control" id="quiz_user_password">
+        </div>
+      </div>
+
+      <div class="container">
         <button id="quiz_submit" type="button" class="btn btn-primary">提出</button>
+      </div>
+
+      <div id="quiz_score">
       </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      URL = 'http://127.0.0.1:5000/quiz_score'
-      // URL = 'http://trezia.db.ics.keio.ac.jp/quiz_score'
+      // quiz_scoreの表示
+      function quizScoreDisplay(message){
+        var quizButton = "<button id=\"quiz_button\" type=\"button\" class=\"btn btn-primary\" onclick=\"quizScoreUndisplay()\">閉じる</button>";
+        message = message + quizButton;
+        $("#quiz_score").html(message);
+        $("#quiz_score").delay(500).fadeIn(500);
+      }
+    
+     // quiz_buttonが押されたときに非表示にする
+     function quizScoreUndisplay(){
+        $("#quiz_score").delay(500).fadeOut(500);
+     } 
+
+      //URL = 'http://127.0.0.1:5000/quiz_score'
+      URL = '{{http_conn}}://trezia.db.ics.keio.ac.jp/quiz_score'
       // 提出ボタンの通信設定
       $("#quiz_submit").click(function(){
+        // ユーザー情報の取得
+        var quiz_user = document.getElementById("quiz_user").value;
+        var quiz_user_password = document.getElementById("quiz_user_password").value;
+        // ユーザー情報が入っているかのチェック
+	if (!quiz_user || !quiz_user_password){
+          alert("ユーザー情報が入っていません。");
+          return;
+        }
         // 解答結果のまとめ
         var resultBox = []; // 各問題を採点した結果
-        quiz_list = document.getElementsByClassName("quiz");
+        var quiz_list = document.getElementsByClassName("quiz");
         quiz_list = Array.prototype.slice.call(quiz_list);
-        quiz_url = document.getElementsByName('quiz_url')[0].getAttribute("content"),
+        var quiz_url = document.getElementsByName('quiz_url')[0].getAttribute("content");
 
         // 各クイズの採点
         quiz_list.forEach(function(quiz){
@@ -91,11 +149,13 @@
             }
           });
           resultBox.push({
+            "quiz_user" : quiz_user,
+            "quiz_user_password" : quiz_user_password,
             "url" : quiz_url,
             "stem" : stem,
-        		"result" : result,
+            "result" : result,
             "selected_key" : select_value,
-        		"correct_key" : correct_value,
+            "correct_key" : correct_value,
             "distracter_0" : distracter_0,
             "distracter_1" : distracter_1,
             "distracter_2" : distracter_2
@@ -106,11 +166,37 @@
 
         $.ajax({
           url: URL,
-          type: 'POST'
+          type: "POST",
+          data: {
+            "resultBox": JSON.stringify(resultBox)
+          }
         })
         // ajax通信成功時
         .done(function(response){
-          console.log("ajax success!");
+          console.log(response);
+          // 採点結果ダイアログの表示
+          var result_list = response["result_list"];
+          var quiz_num = result_list.length;
+          var correct_num = 0;
+          // 間違えた問題を赤色, 正解の問題を緑色に変える
+          for(var i=0;i<quiz_num;i++){
+            var jumbotron = quiz_list[i].getElementsByClassName("jumbotron")[0];
+            if (result_list[i] == 0){
+              jumbotron.style.backgroundColor = "#FF6E66";
+            }else{
+              jumbotron.style.backgroundColor = "#AAFF66";
+            }
+          }
+          // 正解の個数を数える
+          for(var i=0; i<quiz_num;i++){
+            if(result_list[i] == 1){
+              correct_num = correct_num + 1;
+            }
+          }
+          // ダイアログタグの作成
+          dialog_message = "<h3>採点結果：" + correct_num + " / "
+                            + quiz_num + "点正解です。</h3><hr>";
+          quizScoreDisplay(dialog_message);
         })
         .fail(function(){
           console.log("ajax failed");

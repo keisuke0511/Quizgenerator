@@ -89,7 +89,7 @@ class ParseDocument(object):
             parse_result = mecab.parse(sentence)
             parse_result = parse_result.split('\n')
             parse_result = [result.split('\t') for result in parse_result]
-
+             
             # 句構文解析を行う
             cp_text = []
             for pr_node in parse_result:
@@ -99,7 +99,7 @@ class ParseDocument(object):
                     cp_text.append(cp_tuple)
                     break
 		# 解析結果の情報整理
-                yomi = pr_node[0] # 品詞の表層系
+                yomi = pr_node[0] # 品詞の表層系 
                 attr = ('-').join(pr_node[3].split('-')[:2]) #品詞情報
                 # 品詞発音情報
                 attr_h = pr_node[1]
@@ -110,6 +110,7 @@ class ParseDocument(object):
                     attr = attr + '-' + attr_h
                 cp_tuple = (yomi, attr)
                 cp_text.append(cp_tuple)
+            # print(cp_text)
             # 各文の解析結果をリストに入れる
             cp_text_list.append(cp.parse(cp_text))
 
@@ -161,9 +162,10 @@ class ParseDocument(object):
                 continue
             if wikilink in stem:
                 keywords.append(wikilink)
-        if len(keywords) <= 0:
-             return "nothing"
         # keywordsからランダムにcorrect_keyを選択
+        # keywords empty check
+        if len(keywords) <= 0:
+            return "nothing"
         correct_key = keywords[random.randint(0, len(keywords)-1)]
 
         return correct_key
@@ -171,14 +173,18 @@ class ParseDocument(object):
     # stemリストからcorrect keyと空所補充問題の生成
     def stem_key_select(self, stemlist):
         stem_key_list = []
-        # stemのlength check
         for stem in stemlist:
+            # stemのlength check
             if len(stem) < 5:
                 continue
             # 各stemからcorrect keyを選択
+            # print(stem)
             correct_key = self.correct_key_select(stem)
+            # correct_keyがnothingである場合の対策
+            if correct_key == 'nothing':
+                continue
             # stemからcorrect_keyに対応するキーワードを空欄化
-            stem = stem.replace(correct_key, "( )")
+            stem = stem.replace(correct_key, "__________")
             # listに追加
             stem_key_list.append({"stem":stem, "correct_key":correct_key})
 

@@ -18,7 +18,7 @@ def get_response_ja(response):
     body = soup.select_one('body')
     contents = body.select('p')
     # wikipediaのリンクを抽出
-    wikilinks = body.find_all(href=re.compile("https://ja.wikipedia.org/wiki/"))
+    wikilinks = body.find_all(href=re.compile("http://ja.wikipedia.org/wiki/"))
 
     # コンテンツをテキスト型に変換
     text = ''
