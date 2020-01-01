@@ -175,7 +175,7 @@ class ParseDocument(object):
         stem_key_list = []
         for stem in stemlist:
             # stemのlength check
-            if len(stem) < 5:
+            if len(stem) < 5 or len(stem) > 100:
                 continue
             # 各stemからcorrect keyを選択
             # print(stem)
@@ -257,6 +257,8 @@ class ParseDocument(object):
                 topics.append(get_topic_ja(category))
             topics = sum(topics, []) # リストをflattenにする
             random.shuffle(topics)# リストをランダムソート
+            # リストの重複を削除する
+            topics = list(set(topics))
             # トピックリストの数が少ないかどうかを検証
             if len(topics) < 3:
                 continue

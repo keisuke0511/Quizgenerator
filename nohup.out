@@ -101,3 +101,1704 @@ ImportError: No module named 'MeCab'
 127.0.0.1 - - [15/Dec/2019 11:30:38] "POST /quiz_generate_ja HTTP/1.0" 200 -
 127.0.0.1 - - [15/Dec/2019 11:31:00] "POST /quiz_score HTTP/1.0" 200 -
 127.0.0.1 - - [15/Dec/2019 11:35:29] "POST /quiz_score HTTP/1.0" 200 -
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [18/Dec/2019 16:40:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 16:40:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 16:40:45] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:41:17] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:41:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:43:03] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:44:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:44:46] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:45:56] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:46:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:47:06] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 17:48:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:00:54] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:01:09] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:02:43] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:04:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:04:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:04:41] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:04:45] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:08:51] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:09:02] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:10:24] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:10:51] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [18/Dec/2019 18:10:51] "POST /quiz_score HTTP/1.0" 200 -
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [19/Dec/2019 16:03:58] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:36:53] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:37:03] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:37:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:37:55] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:39:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:39:49] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:41:06] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:41:22] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:41:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:41:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:42:53] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:44:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 17:44:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:33:16] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:33:26] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:34:53] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:35:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:35:49] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2019 19:36:50] "POST /quiz_score HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+127.0.0.1 - - [20/Dec/2019 13:41:06] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 13:41:32] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 14:11:12] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 14:11:25] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 14:23:37] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 14:30:58] "POST /quiz_history HTTP/1.0" 200 -
+----------------------------------------
+Exception happened during processing of request from ('159.203.197.172', 39936)
+----------------------------------------
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [20/Dec/2019 15:43:51] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:43:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:44:32] "POST /quiz_score HTTP/1.0" 200 -
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [20/Dec/2019 15:47:43] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:47:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:47:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:48:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:48:55] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:56:10] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:56:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:56:59] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 15:57:16] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 16:41:14] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 16:41:26] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 16:55:36] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:30:14] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:30:26] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:42:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:42:43] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:43:11] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:43:21] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 17:44:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 20:59:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 20:59:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:00:36] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:23:49] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:23:55] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:25:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:25:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:26:41] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:45:53] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:46:08] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:46:37] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:47:45] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:47:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:49:32] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:51:10] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:51:17] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:53:30] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:53:43] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:54:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:55:13] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:56:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:56:59] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 21:58:12] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:43:59] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:44:06] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:45:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:46:26] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:46:34] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 22:49:38] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [20/Dec/2019 23:18:59] "POST /quiz_history HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+122.228.19.79 - - [21/Dec/2019 11:21:10] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2019 12:57:57] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 12:58:16] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 12:59:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:17:29] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:17:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:04] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:05] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:47] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:18:51] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:19:41] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:19:41] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:19:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:19:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:21:53] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 16:21:53] "POST /quiz_score HTTP/1.0" 200 -
+198.108.67.48 - - [21/Dec/2019 19:54:05] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2019 21:02:21] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 21:02:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 21:02:46] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [21/Dec/2019 21:05:46] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:05:53] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:05:59] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:05:59] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:06:00] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:06:03] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:06:12] "POST /quiz_score HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 143, in quiz_score
+    cur.execute('INSERT INTO question(URL, stem, title) VALUES(%s, %s, %s) RETURNING id',(url, stem, title))
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(256)
+127.0.0.1 - - [21/Dec/2019 21:06:16] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 00:38:48] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 00:39:09] "POST /quiz_history HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/main.py', reloading
+----------------------------------------
+Exception happened during processing of request from ('122.228.19.79', 11622)
+----------------------------------------
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/parsedoc.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [22/Dec/2019 00:46:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 00:46:37] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 00:46:59] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 00:47:18] "POST /quiz_history HTTP/1.0" 200 -
+45.32.132.212 - - [22/Dec/2019 13:51:53] "GET /upgrade_handle.php?cmd=writeuploaddir&uploaddir=%27;uname%20-r;%27 HTTP/1.1" 404 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [22/Dec/2019 19:26:53] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:27:04] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:27:10] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:33:14] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:33:29] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:35:09] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:37:19] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:38:00] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:38:02] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:45:35] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:46:04] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:46:17] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:46:51] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:47:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:47:31] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:47:41] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:48:28] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:50:57] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:50:59] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:51:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:51:09] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:51:17] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:51:33] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 19:51:43] "POST /quiz_score HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [22/Dec/2019 20:02:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:02:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:02:25] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:02:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:02:41] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:02:46] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:06:21] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:06:30] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:06:43] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:06:51] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:06:58] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:07:20] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:07:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:07:35] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:07:56] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:13:23] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:13:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:13:53] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:14:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:14:28] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:21:18] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:21:34] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:45:01] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 20:54:09] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:01:27] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:01:36] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:02:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:02:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:03:24] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:03:52] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:04:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:04:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:05:26] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:05:42] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:08:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:08:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:09:04] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 21:09:23] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2019 22:54:07] "POST /quiz_history HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+127.0.0.1 - - [23/Dec/2019 09:50:43] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 10:40:15] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 10:40:46] "POST /quiz_generate_ja_test HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 90, in quiz_generate_ja_test
+    get_url_info = requests.get(url, headers=HEADERS).text
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests_cache/core.py", line 136, in request
+    **kwargs
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 474, in request
+    prep = self.prepare_request(req)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 407, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 302, in prepare
+    self.prepare_url(url, params)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 366, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'yakkun.com': No schema supplied. Perhaps you meant http://yakkun.com?
+127.0.0.1 - - [23/Dec/2019 10:40:50] "POST /quiz_generate_ja_test HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 90, in quiz_generate_ja_test
+    get_url_info = requests.get(url, headers=HEADERS).text
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests_cache/core.py", line 136, in request
+    **kwargs
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 474, in request
+    prep = self.prepare_request(req)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 407, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 302, in prepare
+    self.prepare_url(url, params)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 366, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'yakkun.com': No schema supplied. Perhaps you meant http://yakkun.com?
+127.0.0.1 - - [23/Dec/2019 10:41:02] "POST /quiz_generate_ja_test HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 90, in quiz_generate_ja_test
+    get_url_info = requests.get(url, headers=HEADERS).text
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests_cache/core.py", line 136, in request
+    **kwargs
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 474, in request
+    prep = self.prepare_request(req)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 407, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 302, in prepare
+    self.prepare_url(url, params)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 366, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'yakkun.com': No schema supplied. Perhaps you meant http://yakkun.com?
+127.0.0.1 - - [23/Dec/2019 10:41:57] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 10:42:03] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 10:42:14] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:26:58] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:30:38] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:30:57] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:31:01] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:37:37] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:39:30] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 11:42:02] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:06:49] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:14:24] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:14:30] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:15:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:15:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:16:37] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:17:17] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:18:21] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:27:47] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:29:55] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:29:58] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:30:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:30:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:33:08] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:33:08] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:33:28] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 12:33:28] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:10:17] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:13:19] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:22:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:22:56] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:32:38] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:36] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:34:41] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:37:39] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:37:48] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:38:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:38:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:38:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:38:31] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:41:00] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:41:00] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:41:55] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 13:56:56] "POST /quiz_history HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc_j.py', reloading
+----------------------------------------
+Exception happened during processing of request from ('193.188.22.187', 1663)
+----------------------------------------
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [23/Dec/2019 14:01:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:01:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:02:51] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:03:03] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:16:45] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:16:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:40:10] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:40:22] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:41:58] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:44:11] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:44:32] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:44:37] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 14:44:47] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 15:42:13] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:00:24] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:00:34] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:00:59] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:03:37] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:26:13] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:26:23] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 16:27:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc_j.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [23/Dec/2019 16:34:43] "POST /quiz_generate HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+83.97.20.49 - - [23/Dec/2019 16:39:31] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [23/Dec/2019 16:44:10] "POST /quiz_generate HTTP/1.0" 500 -
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc_j.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc_j.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [23/Dec/2019 17:06:16] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 17:46:08] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 18:49:32] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 21:06:54] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 21:07:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 21:09:21] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 21:09:29] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [23/Dec/2019 23:27:14] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 00:43:21] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 00:45:03] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 00:45:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 00:48:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 00:49:30] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 08:15:08] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:05:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:05:40] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:07:01] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:07:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:07:36] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:08:24] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:08:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:08:58] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:51:30] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:55:04] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:58:32] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:58:40] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 11:59:46] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:02:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:02:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:03:27] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:15:13] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:03] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:04] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:09] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:22] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:22] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:25:23] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:26:25] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 12:26:36] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:16:55] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:17:02] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:18:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:18:23] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:18:37] "POST /quiz_score HTTP/1.0" 200 -
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [24/Dec/2019 13:34:48] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:35:15] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:35:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:35:22] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:37:11] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:37:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:37:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:37:30] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:38:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:38:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:39:00] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:41:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:41:43] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:41:51] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:42:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:42:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:43:00] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 13:43:13] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:19:18] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:20:13] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:20:16] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:20:56] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:21:37] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:22:48] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:32:50] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:33:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:33:59] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:34:51] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:35:20] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:36:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:36:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:37:11] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:37:32] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 14:41:01] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 15:39:28] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:47:33] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:16] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:20] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:23] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 16:55:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:07:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:07:34] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:14:42] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:14:48] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:38:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:38:31] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:41:14] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:41:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:42:00] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 17:43:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:21:18] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:21:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:21:39] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:22:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:22:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:22:23] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 20:22:29] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 21:45:48] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 21:46:03] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 21:46:25] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 21:46:42] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [24/Dec/2019 21:48:14] "POST /quiz_score HTTP/1.0" 200 -
+198.108.67.48 - - [25/Dec/2019 01:42:15] "GET / HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+127.0.0.1 - - [25/Dec/2019 12:30:44] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:36:25] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:36:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:38:24] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:45:12] "POST /quiz_generate_ja_test HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 90, in quiz_generate_ja_test
+    get_url_info = requests.get(url, headers=HEADERS).text
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests_cache/core.py", line 136, in request
+    **kwargs
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 474, in request
+    prep = self.prepare_request(req)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/sessions.py", line 407, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 302, in prepare
+    self.prepare_url(url, params)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/requests/models.py", line 366, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '出演作の『深呼吸の必要』、『涙そうそう』、『群青 愛が沈んだ海の色』は、いずれも沖縄を舞台とした作品であり、その縁から2009年6月15日に沖縄県から「美ら島沖縄大使」に任命されている。': No schema supplied. Perhaps you meant http://出演作の『深呼吸の必要』、『涙そうそう』、『群青 愛が沈んだ海の色』は、いずれも沖縄を舞台とした作品であり、その縁から2009年6月15日に沖縄県から「美ら島沖縄大使」に任命されている。?
+127.0.0.1 - - [25/Dec/2019 12:45:46] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:45:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:46:32] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:46:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [25/Dec/2019 12:47:47] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:24:15] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:27:31] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:27:48] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:30:21] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:30:39] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:30:47] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:05] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:16] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:36] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:42] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:46] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:31:57] "POST /quiz_generate HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/main.py', reloading
+----------------------------------------
+Exception happened during processing of request from ('163.172.105.97', 46120)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('163.172.105.97', 58674)
+----------------------------------------
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [26/Dec/2019 10:33:49] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:34:14] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:34:17] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:36:34] "POST /quiz_generate HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/getdoc.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [26/Dec/2019 10:38:08] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:38:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:42:55] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:44:51] "POST /quiz_generate HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:45:19] "POST /quiz_generate HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [26/Dec/2019 10:49:38] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:53:49] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:53:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:53:54] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:53:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:55:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:55:35] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:57:28] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:57:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:58:10] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:58:22] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 10:58:29] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:00:57] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:01:02] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:01:47] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:01:52] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:22] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:25] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:02:59] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:03:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:04:24] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:04:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:04:50] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:09:27] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:09:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:13:58] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:16:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:16:26] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:16:55] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:16:58] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:17:12] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:17:14] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:17:59] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:18:21] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:18:29] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 11:19:27] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:05:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:05:12] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:05:58] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:12:49] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:12:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:13:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:16:56] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:17:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:18:08] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:18:27] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:24:19] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:36:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:36:35] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:36:54] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:37:00] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:37:23] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:37:30] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:38:24] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:39:45] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:39:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:40:31] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:40:36] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:43:10] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:43:14] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:44:33] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:44:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:45:01] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:45:15] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:45:18] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:45:33] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:46:16] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:46:20] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:46:56] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:07] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:17] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:28] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:43] "POST /quiz_generate_ja_test HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask_cors/extension.py", line 188, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home_allex/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home_allex/toyama/keisuke/MQGSystem/main.py", line 93, in quiz_generate_ja_test
+    result["title"] = soup.title.string
+AttributeError: 'NoneType' object has no attribute 'string'
+127.0.0.1 - - [26/Dec/2019 12:47:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:50] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:51] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:47:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:48:30] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:48:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:48:54] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:49:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:49:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:49:24] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:49:37] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:49:42] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:51:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:51:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:51:51] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:51:56] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:07] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:12] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:13] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:13] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:14] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:14] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:16] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:19] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:29] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:35] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:38] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:44] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:46] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:46] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:46] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:47] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:47] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:51] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:52:54] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:02] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:12] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:17] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:20] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:27] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:35] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:40] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:46] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:48] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:49] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:50] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:54] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:53:55] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:55:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:55:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:58:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:58:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:58:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:58:52] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:58:56] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 12:59:00] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:00:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:00:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:00:47] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:00:51] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:20] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:23] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:24] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:34] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:42] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:55] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:58] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:01:58] "POST /quiz_history HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:05] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:06] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:06] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:06] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:19] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:25] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:25] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:34] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:35] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:36] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:37] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:38] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:39] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:40] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:41] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:42] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:43] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:44] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:44] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:44] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:49] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:53] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:02:58] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:01] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:04] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:13] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:21] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:25] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:35] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:37] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:41] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:45] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:47] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:51] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:03:57] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:04] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:08] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:14] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:19] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:21] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:37] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:41] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:44] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:50] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:52] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:56] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:04:59] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:00] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:01] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:04] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:08] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:10] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:12] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:17] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:19] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:22] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:24] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:30] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:32] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:34] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:37] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:43] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:48] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:53] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:55] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:05:59] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:01] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:04] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:05] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:13] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:15] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:20] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:25] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:28] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:29] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:33] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:38] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:42] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:50] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:06:54] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:02] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:07] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:08] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:11] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:07:19] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 13:19:53] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 14:12:58] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 16:34:38] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [26/Dec/2019 17:42:48] "POST /quiz_history HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+83.97.20.46 - - [28/Dec/2019 07:48:59] "GET / HTTP/1.0" 404 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+127.0.0.1 - - [29/Dec/2019 11:46:27] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:48:02] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:48:45] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:14] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:18] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:20] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:23] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:46] "POST /quiz_user_register HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:50:47] "POST /quiz_score HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:51:05] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:51:34] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:53:27] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:53:39] "POST /quiz_generate_ja HTTP/1.0" 200 -
+127.0.0.1 - - [29/Dec/2019 11:54:35] "POST /quiz_score HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+83.97.20.46 - - [31/Dec/2019 18:03:56] "GET / HTTP/1.0" 404 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+198.108.67.48 - - [01/Jan/2020 19:01:06] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [01/Jan/2020 19:37:34] "POST /quiz_history HTTP/1.0" 200 -

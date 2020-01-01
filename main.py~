@@ -1,0 +1,30 @@
+from questionselect.parsedoc import ParseDocument
+from questionselect.getdoc import get_response
+from flask import Flask, jsonify, request, render_template
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/quiz_generate', methods=['GET'])
+def quiz_generate():
+    # コンテンツ取得
+    response = request.args.get('contents')
+    response = get_response(response)
+    # ドキュメントの選択
+    parsedoc = ParseDocument(response['contents'], response['wikilinks'])
+    # ドキュメントから文分割、タグ付け、チャンキングを行う
+    parsed_sentences = parsedoc.doc_to_sentences()
+    # 問題文の選択
+    quiz_stem = parsedoc.sentence_select(parsed_sentences)
+    # correct keyの選択と空所補充問題生成(stem, key)
+    stem_key_list = parsedoc.stem_key_select(quiz_stem)
+    # correct_keyと同じカテゴリに属するトピックをdistracterとして扱う
+    quiz_distracter = parsedoc.get_distracters(stem_key_list)
+
+    return render_template('index.html', quiz_list=quiz_distracter)
+    # return jsonify({'quiz_list': quiz_distracter})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+    

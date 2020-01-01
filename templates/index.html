@@ -113,12 +113,17 @@
           var distracter_1 = '';
           var distracter_2 = '';
 
+          // 選択肢が選ばれているかどうかをチェック
+          if(!result.value){
+              alert("未選択の問題があります");
+              return false;
+          }
+
           // キーバリューの作成
           result = result.value; // 選んだ選択肢の値
           var options = quiz.getElementsByTagName("option");
           options = Array.prototype.slice.call(options);
-          options.forEach(function(option){
-
+          options.forEach(function(option){            
             if (option.value == result){
               select_value = option.value;
             }
@@ -153,6 +158,7 @@
             "quiz_user_password" : quiz_user_password,
             "url" : quiz_url,
             "stem" : stem,
+            "title" : "{{title}}",
             "result" : result,
             "selected_key" : select_value,
             "correct_key" : correct_value,
@@ -161,8 +167,6 @@
             "distracter_2" : distracter_2
             });
         });
-
-        console.log(resultBox);
 
         $.ajax({
           url: URL,
@@ -173,7 +177,10 @@
         })
         // ajax通信成功時
         .done(function(response){
-          console.log(response);
+          if (response=='ユーザー情報が未登録です'){
+              alert(response);
+              return;
+          }
           // 採点結果ダイアログの表示
           var result_list = response["result_list"];
           var quiz_num = result_list.length;
@@ -199,7 +206,7 @@
           quizScoreDisplay(dialog_message);
         })
         .fail(function(){
-          console.log("ajax failed");
+          alert("通信に失敗しました。ユーザー名もしくはパスワードが正しいか確認をお願いします");
         })
       })
     </script>

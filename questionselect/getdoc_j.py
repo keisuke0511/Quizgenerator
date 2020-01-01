@@ -32,7 +32,7 @@ def get_response_ja(response):
     text = re.sub(rep2, " ", text)
 
     # wikilinksをリスト型に変換
-    wikilinks = [wikilink.text for wikilink in wikilinks]
+    wikilinks = [wikilink.text for wikilink in wikilinks if not re.match('.*[0-9]+.*', wikilink.text)]
 
     # Wikipediaのリンクリスト, テキストを辞書に追加
     dict['contents'] = text
@@ -61,9 +61,13 @@ def get_category_ja(correct_key):
 # カテゴリページからトピックを全取得
 def get_topic_ja(category):
     topics = []
+    filter_list = ['曖昧さ回避', '文体', '文']
+    # カテゴリが曖昧さ回避かどうかを調べる
+    if category in filter_list:
+        return topics    
+
     # カテゴリページへのリクエスト
     URL = BASE_URL + "Category:" + category
-
     # コンテンツからtopicリストの取得
     response = requests.get(URL, headers=HEADERS)
     soup = BeautifulSoup(response.content, "lxml")

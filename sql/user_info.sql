@@ -13,6 +13,7 @@ create table question(
   id serial,
   url varchar(256) not null,
   stem varchar(256),
+  title varchar(256),
   primary key(id)
 );
 
@@ -25,6 +26,7 @@ create table user_question(
   distracter_1 varchar(128),
   distracter_2 varchar(128),
   selected_choice varchar(128),
+  time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   primary key(id),
   foreign key(u_id) references user_info(id),
   foreign key(q_id) references question(id)
