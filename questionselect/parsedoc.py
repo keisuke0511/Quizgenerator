@@ -12,6 +12,7 @@ class ParseDocument(object):
     def __init__(self, doc, wikilinks):
         self.doc = doc
         self.wikilinks = wikilinks # wikipediaリンクのリスト
+        self.keylinks = [] # correct_keyの候補リスト
 
     # ドキュメントの出力
     def print_doc(self):
@@ -143,21 +144,39 @@ class ParseDocument(object):
                 continue
             for subtree in sent.subtrees():
                 if subtree.label() == 'QUIZ':
-                    quiz_sent_add = [word for word, tag in sent.leaves()]
+                    quiz_sent_add = [self.extract_correct_key_from_wikilink(word,tag) for word, tag in sent.leaves()]
                     quiz_sent_add = ''.join(quiz_sent_add[:-1])
                     quiz_stem.append(quiz_sent_add)
+                # NPのラベルがwikilinkに含まれるか確かめる
+                if subtree.label() == 'NP':
+                    key_link_add = [word for word, tag in subtree.leaves()]
+                    key_link_add = ''.join(key_link_add[:-1])
+                    if key_link_add in self.wikilinks:
+                        self.keylinks.append(key_link_add)
         # 問題文の数が５個よりも多い場合に、リストからランダムに選択
-        if len(quiz_stem) > 5:
+        if len(quiz_stem) > 10:
             random.shuffle(quiz_stem)
-            quiz_stem = quiz_stem[0:5]
+            quiz_stem = quiz_stem[0:10]
 
         return quiz_stem
+
+    # 形態素がwikilinkとしてふさわしいかをチェックする
+    def extract_correct_key_from_wikilink(self, word, tag):
+        # キーワードがwikilinkに含まれ,
+        # 固有名詞でないものをwikilinksから取り除く
+        if word in self.wikilinks and '名詞' in tag:
+            self.keylinks.append(word)
+            return word
+
+        return word
 
     # stemからcorrectkeyをランダムに選択
     def correct_key_select(self, stem):
         # wikilinksからstemにあるキーワードをまとめる
         keywords = []
-        for wikilink in self.wikilinks:
+        self.keylinks = list(set(self.keylinks)) # keylinksの重複をなくす
+
+        for wikilink in self.keylinks:
             if wikilink == '':
                 continue
             if wikilink in stem:

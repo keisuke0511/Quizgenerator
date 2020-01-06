@@ -79,13 +79,13 @@
         $("#quiz_score").html(message);
         $("#quiz_score").delay(500).fadeIn(500);
       }
-    
+
      // quiz_buttonが押されたときに非表示にする
      function quizScoreUndisplay(){
         $("#quiz_score").delay(500).fadeOut(500);
-     } 
+     }
 
-      //URL = 'http://127.0.0.1:5000/quiz_score'
+      // URL = 'http://127.0.0.1:5000/quiz_score'
       URL = '{{http_conn}}://trezia.db.ics.keio.ac.jp/quiz_score'
       // 提出ボタンの通信設定
       $("#quiz_submit").click(function(){
@@ -123,7 +123,7 @@
           result = result.value; // 選んだ選択肢の値
           var options = quiz.getElementsByTagName("option");
           options = Array.prototype.slice.call(options);
-          options.forEach(function(option){            
+          options.forEach(function(option){
             if (option.value == result){
               select_value = option.value;
             }

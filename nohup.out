@@ -1802,3 +1802,203 @@ Traceback (most recent call last):
 AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
 198.108.67.48 - - [01/Jan/2020 19:01:06] "GET / HTTP/1.1" 404 -
 127.0.0.1 - - [01/Jan/2020 19:37:34] "POST /quiz_history HTTP/1.0" 200 -
+ * Detected change in '/home_allex/toyama/keisuke/MQGSystem/questionselect/parsedoc.py', reloading
+----------------------------------------
+Exception happened during processing of request from ('78.31.71.113', 61664)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('159.203.201.164', 50920)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('5.188.206.50', 533)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('193.188.22.187', 1240)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('78.31.71.113', 62893)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('193.188.22.136', 63993)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('83.97.20.46', 19360)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('5.188.206.50', 2377)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('80.82.77.139', 59840)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.51.161.209', 58847)
+----------------------------------------
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+ * Running on http://0.0.0.0:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 201-258-305
+127.0.0.1 - - [01/Jan/2020 21:22:13] "POST /quiz_generate_ja_test HTTP/1.0" 200 -
+127.0.0.1 - - [01/Jan/2020 21:22:18] "POST /quiz_generate_ja HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 327, in parse_request
+    "Bad request syntax (%r)" % requestline)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+83.97.20.46 - - [04/Jan/2020 20:43:44] "GET / HTTP/1.0" 404 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 320, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+83.97.20.46 - - [05/Jan/2020 14:43:00] "GET / HTTP/1.0" 404 -
+Traceback (most recent call last):
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 216, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 250, in handle_one_request
+    elif self.parse_request():
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 288, in parse_request
+    "Bad request version (%r)" % version)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/http/server.py", line 452, in send_error
+    self.log_error("code %d, message %s", code, message)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 272, in log_error
+    self.log('error', *args)
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 278, in log
+    _log(type, '%s - - [%s] %s\n' % (self.address_string(),
+  File "/home/toyama/keisuke/.pyenv/versions/anaconda3-4.0.0/lib/python3.5/site-packages/werkzeug/serving.py", line 266, in address_string
+    return self.environ['REMOTE_ADDR']
+AttributeError: 'WSGIRequestHandler' object has no attribute 'environ'
+106.75.2.200 - - [06/Jan/2020 10:47:12] "GET / HTTP/1.0" 404 -
+106.75.85.103 - - [06/Jan/2020 10:47:13] "GET / HTTP/1.1" 404 -
