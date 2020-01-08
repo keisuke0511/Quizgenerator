@@ -70,6 +70,8 @@ def quiz_generate_ja():
     response = get_response_ja(response)
     # ドキュメントの選択
     parsedoc = ParseDocument(response['contents'], response['wikilinks'])
+    # wikilinkの発生確率を求める
+    parsedoc.wikilink_probability_ja()
     # ドキュメントから文分割、形態素解析、句構文解析を行う
     parsed_sentences = parsedoc.doc_to_sentences_ja()
     # 問題文の選択
@@ -98,12 +100,12 @@ def quiz_generate_ja_test():
 def quiz_score():
     # resultBox = request.args.get('resultBox')
     quiz_box = json.loads(request.form['resultBox'])
-    
+
     # 各解答結果を採点
     quiz_num = len(quiz_box) # 解いた問題数
     result_list = [] # 解答結果リスト
-    
-    conn = psycopg2.connect('dbname=question user=keisuke') # データベースへの接続    
+
+    conn = psycopg2.connect('dbname=question user=keisuke') # データベースへの接続
     # 採点結果をデータベースに格納
     for quiz in quiz_box:
         quiz_user = quiz['quiz_user']
@@ -131,7 +133,7 @@ def quiz_score():
                 distracter_0 = quiz['distracter_0']
                 distracter_1 = quiz['distracter_1']
                 distracter_2 = quiz['distracter_2']
-                selected_choice = quiz['selected_key']                
+                selected_choice = quiz['selected_key']
 
                 # questionテーブルへの格納
                 cur.execute('SELECT * FROM question q WHERE q.stem=%s', (stem,))
@@ -145,7 +147,7 @@ def quiz_score():
                 # user_questionテーブルへの格納
                 query = 'INSERT INTO user_question(u_id, q_id, correct_key, distracter_0, distracter_1, distracter_2, selected_choice) VALUES(%s,%s,%s,%s,%s,%s,%s)'
                 cur.execute(query, (u_id, q_id, correct_key, distracter_0, distracter_1, distracter_2, selected_choice))
-    
+
     # 採点結果をデータベースへ反映させる
     conn.commit()
     conn.close()
@@ -159,7 +161,7 @@ def quiz_history():
     # ユーザー情報の取得
     user_name = request.form['user_name']
     user_password = request.form['user_password']
-    
+
     # データベースへの接続
     conn = psycopg2.connect('dbname=question user=keisuke')
     with conn.cursor(cursor_factory=DictCursor) as cur:

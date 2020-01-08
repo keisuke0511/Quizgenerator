@@ -1,3 +1,4 @@
+import re
 import nltk
 import MeCab
 import random
@@ -13,6 +14,7 @@ class ParseDocument(object):
         self.doc = doc
         self.wikilinks = wikilinks # wikipediaリンクのリスト
         self.keylinks = [] # correct_keyの候補リスト
+        self.wikilink_freq = [] # wikilinkの発生確率のリスト
 
     # ドキュメントの出力
     def print_doc(self):
@@ -22,6 +24,17 @@ class ParseDocument(object):
         print("<Wikilinks>")
         print(self.wikilinks)
         print("-------------------------------------------")
+
+    # wikilinkの発生確率を求める(日本語)
+    def wikilink_probability_ja(self):
+        # wikilinkの文章中における頻度を数える
+        for wikilink in self.wikilinks:
+            re_set = re.compile(wikilink)
+            wiki_count = len(re_set.findall(self.doc))
+            self.wikilink_freq.append((wikilink,wiki_count)) # リストに頻度情報をセット
+        # 頻度ごとにリストをソート
+        self.wikilink_freq = sorted(self.wikilink_freq, key=lambda x:x[1], reverse=True)
+        self.wikilink_freq = dict(self.wikilink_freq)
 
     # センテンスにwikilinkを含むかチェック
     def wikilink_check(self, sent):
@@ -72,7 +85,7 @@ class ParseDocument(object):
             VP: {<NP>+<VP>+ | <NP>+<動詞.*>}
             SHUKAKU: {<NP>+<助詞-格助詞-ガ> | <NP>+<助詞-格助詞-ハ> | <NP>+<助詞-係助詞>}
             MOKUTEKIKAKU: {<NP>+<助詞-格助詞-ニ> | <NP>+<助詞-格助詞-ヲ>}
-            QUIZ: {<SHUKAKU>+<MOKUTEKIKAKU>*<VP>}
+            QUIZ: {<SHUKAKU>+<MOKUTEKIKAKU>*<VP> | <SHUKAKU>+<NP>*<VP>}
                   '''
 
         sentences = self.doc.split('。') # テキストを行ごとに分割
@@ -90,7 +103,7 @@ class ParseDocument(object):
             parse_result = mecab.parse(sentence)
             parse_result = parse_result.split('\n')
             parse_result = [result.split('\t') for result in parse_result]
-             
+
             # 句構文解析を行う
             cp_text = []
             for pr_node in parse_result:
@@ -100,7 +113,7 @@ class ParseDocument(object):
                     cp_text.append(cp_tuple)
                     break
 		# 解析結果の情報整理
-                yomi = pr_node[0] # 品詞の表層系 
+                yomi = pr_node[0] # 品詞の表層系
                 attr = ('-').join(pr_node[3].split('-')[:2]) #品詞情報
                 # 品詞発音情報
                 attr_h = pr_node[1]
@@ -129,9 +142,9 @@ class ParseDocument(object):
                     quiz_stem.append(quiz_sent_add)
 
         # 問題文の数が５個よりも多い場合に、リストからランダムに選択
-        if len(quiz_stem) > 5:
-            random.shuffle(quiz_stem)
-            quiz_stem = quiz_stem[0:5]
+        # if len(quiz_stem) > 20:
+        #     random.shuffle(quiz_stem)
+        #     quiz_stem = quiz_stem[0:20]
 
         return quiz_stem
 
@@ -139,26 +152,48 @@ class ParseDocument(object):
     def sentence_select_ja(self, sentlist):
         # sentence treeからQUIZチャンクタグを含むものを選択する
         quiz_stem = []
+
+        # wikilinkの中からNPのキーワードを選択
+        self.wikilink_select(sentlist)
+
         for sent in sentlist:
             if isinstance(sent, tuple):
                 continue
+            # QUIZタグの文を選択する
             for subtree in sent.subtrees():
                 if subtree.label() == 'QUIZ':
                     quiz_sent_add = [self.extract_correct_key_from_wikilink(word,tag) for word, tag in sent.leaves()]
                     quiz_sent_add = ''.join(quiz_sent_add[:-1])
+                    self.wikilink_count(quiz_sent_add) # wikilinkの頻度を調べる
                     quiz_stem.append(quiz_sent_add)
-                # NPのラベルがwikilinkに含まれるか確かめる
+
+        # quiz_stemから頻度に関する重みが大きい問題文が選択される
+        # if len(quiz_stem) > 10:
+        #     random.shuffle(quiz_stem)
+        #     quiz_stem = quiz_stem[0:10]
+
+        quiz_stem = list(set(quiz_stem)) # quiz_stemの重複をなくす
+        return quiz_stem
+
+    def wikilink_count(self, stem):
+        count_list = []
+        for wikilink in self.wikilinks:
+            re_set = re.compile(wikilink)
+            wiki_count = len(re_set.findall(stem))
+            if wiki_count > 0:
+                count_list.append(wiki_count)
+        print(count_list)
+
+    def wikilink_select(self, stemlist):
+        # NP のラベルがwikilinkに含まれるかを確かめる
+        for sent in sentlist:
+            for subtree in sent.subtrees():
                 if subtree.label() == 'NP':
                     key_link_add = [word for word, tag in subtree.leaves()]
                     key_link_add = ''.join(key_link_add[:-1])
                     if key_link_add in self.wikilinks:
                         self.keylinks.append(key_link_add)
-        # 問題文の数が５個よりも多い場合に、リストからランダムに選択
-        if len(quiz_stem) > 10:
-            random.shuffle(quiz_stem)
-            quiz_stem = quiz_stem[0:10]
 
-        return quiz_stem
 
     # 形態素がwikilinkとしてふさわしいかをチェックする
     def extract_correct_key_from_wikilink(self, word, tag):
