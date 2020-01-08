@@ -152,6 +152,7 @@ class ParseDocument(object):
     def sentence_select_ja(self, sentlist):
         # sentence treeからQUIZチャンクタグを含むものを選択する
         quiz_stem = []
+        quiz_weight = []
 
         # wikilinkの中からNPのキーワードを選択
         self.wikilink_select(sentlist)
@@ -164,27 +165,33 @@ class ParseDocument(object):
                 if subtree.label() == 'QUIZ':
                     quiz_sent_add = [self.extract_correct_key_from_wikilink(word,tag) for word, tag in sent.leaves()]
                     quiz_sent_add = ''.join(quiz_sent_add[:-1])
-                    self.wikilink_count(quiz_sent_add) # wikilinkの頻度を調べる
-                    quiz_stem.append(quiz_sent_add)
+                    stem_weight = self.wikilink_count(quiz_sent_add) # wikilinkの頻度から重みを計算
+                    # 問題文をキー、文に対する重みを値として辞書を作成
+                    if not quiz_sent_add in quiz_stem:
+                        quiz_stem.append(quiz_sent_add)
+                        quiz_weight.append([quiz_sent_add,stem_weight])
 
-        # quiz_stemから頻度に関する重みが大きい問題文が選択される
-        # if len(quiz_stem) > 10:
-        #     random.shuffle(quiz_stem)
-        #     quiz_stem = quiz_stem[0:10]
+        quiz_stem = list(set(quiz_stem)) # quiz_stemの重複をなく
+        # quiz_weightから頻度に関する重みが大きい問題文が選択される
+        quiz_weight = sorted(quiz_weight, key=lambda x:x[1], reverse=True) # 重みごとにソート
 
-        quiz_stem = list(set(quiz_stem)) # quiz_stemの重複をなくす
+        if len(quiz_weight) > 20:
+            quiz_stem = [stem[0] for stem in quiz_weight[0:20]]
+
         return quiz_stem
 
     def wikilink_count(self, stem):
         count_list = []
-        for wikilink in self.wikilinks:
-            re_set = re.compile(wikilink)
-            wiki_count = len(re_set.findall(stem))
-            if wiki_count > 0:
+        self.keylinks = list(set(self.keylinks))
+        for keylink in self.keylinks:
+            if keylink in stem:
+                wiki_count = self.wikilink_freq[keylink]
                 count_list.append(wiki_count)
-        print(count_list)
+        if len(count_list)==0:
+            return 0
+        return sum(count_list) / len(count_list)
 
-    def wikilink_select(self, stemlist):
+    def wikilink_select(self, sentlist):
         # NP のラベルがwikilinkに含まれるかを確かめる
         for sent in sentlist:
             for subtree in sent.subtrees():
@@ -193,6 +200,9 @@ class ParseDocument(object):
                     key_link_add = ''.join(key_link_add[:-1])
                     if key_link_add in self.wikilinks:
                         self.keylinks.append(key_link_add)
+        # keylinksの重複をなくす
+        self.keylinks = list(set(self.keylinks))
+        print(self.keylinks)
 
 
     # 形態素がwikilinkとしてふさわしいかをチェックする
@@ -202,7 +212,6 @@ class ParseDocument(object):
         if word in self.wikilinks and '名詞' in tag:
             self.keylinks.append(word)
             return word
-
         return word
 
     # stemからcorrectkeyをランダムに選択
